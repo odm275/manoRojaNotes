@@ -1,7 +1,8 @@
 ---
 templateKey: index-page
 title: Lets Explore Ideas
-image: /img/schoolofathens.jpg
+image: >-
+  https://raw.githubusercontent.com/odm275/manoRojaNotes/master/static/img/blog-index.jpg
 heading: Welcome
 subheading: 'Yes'
 mainpitch:
