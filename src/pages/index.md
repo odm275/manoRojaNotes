@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Lets Explore Ideas
+title: Vamos a Explorar Ideas
 image: /img/schoolofathens.jpg
 heading: 'Yes'
-subheading: Vamos a Explorar Ideas
+subheading: Lets Explore Ideas
 mainpitch:
   title: Why Kaldi
   description: >
