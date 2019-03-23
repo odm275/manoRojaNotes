@@ -1,9 +1,8 @@
 ---
 templateKey: about-page
-title: Whatup
+title: Desesperado en el olvido amor
 ---
-Started learning how to program about 2ish years ago now. Loving the community and the field. It's the perfect outlet for creative ideas and experiments.
-
-
-
-# WE IN THERE.
+## Muy desesperado, muy en el olvido
+### Y mi amor nunca se raja
+### Y mi amor nunca jamás te va a fallar
+### Nunca jamás
