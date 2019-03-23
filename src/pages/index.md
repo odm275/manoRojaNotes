@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Explorando Ideas
+title: Experimenting
 image: /img/caspar_david_friedrich_-_wanderer_above_the_sea_of_fog.jpg
 heading: 'Yes'
-subheading: Exploring Ideas
+subheading: Playground
 mainpitch:
   title: Why Kaldi
   description: >
