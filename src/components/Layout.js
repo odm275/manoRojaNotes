@@ -1,11 +1,11 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
-import './all.sass'
+import './all.sass';
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -32,7 +32,7 @@ const TemplateWrapper = ({ children }) => (
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/img/apple-touch-icon.png"
+            href="/img/red-hand.png"
           />
           <link
             rel="icon"
@@ -65,6 +65,6 @@ const TemplateWrapper = ({ children }) => (
       </div>
     )}
   />
-)
+);
 
-export default TemplateWrapper
+export default TemplateWrapper;
