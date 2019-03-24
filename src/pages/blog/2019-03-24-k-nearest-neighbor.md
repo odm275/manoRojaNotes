@@ -8,9 +8,7 @@ tags:
   - machine learning
 ---
 The K-Nearest Neighbor Algorithm compares data relative to a specific parameter, groups together the most similar data, and chooses some k sub-set of the set of data. For example, assuming we drop balls through a nail board and get a result that looks like:
-
-\`\``
-
+```
 const outputs = [
 
 \[10, 0.5, 16, 1],
@@ -22,15 +20,11 @@ const outputs = [
 \[600, 0.5, 16, 5]
 
 ];
-
-\`\``
-
+```
 where the parameters for bounciness and ball size will be dropped for now (column 2 and column 3).
 
 In code, we would do something like
-
-\`\``
-
+```
 const predictionPoint = 300;
 
 const k = 3;
@@ -49,4 +43,4 @@ _.chain(outputs)
 
 .slice(0, k);
 
-\`\``
+```
