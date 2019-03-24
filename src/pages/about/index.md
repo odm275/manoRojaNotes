@@ -1,8 +1,5 @@
 ---
 templateKey: about-page
-title: Desesperado ... en el olvido amor
+title: 'Hola,'
 ---
-## Muy desesperado, muy en el olvido
-### Y mi amor nunca se raja
-### Y mi amor nunca jamás te va a fallar
-### Nunca jamás
+### Trying to come up with solutions to personal problems that other people might have too.
