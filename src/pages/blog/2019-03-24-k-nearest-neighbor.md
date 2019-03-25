@@ -27,16 +27,23 @@ function distance(point){
 return Math.abs(point - predictionPoint);
 }
 
+function runAnalysis(){
+
+}
+
 // Using lodash
 _.chain(outputs)
 .map(row => [distance(row[0]), row[3]])
 .sortBy(row => row[0])
-.slice(0, k) //[[50,4],[100,4],[290,1]]
-.countBy(row => row[1]) // Count instances of bucket happenings // {"1":1,"4":2}
+.slice(0, k) 
+//[[50,4],[100,4],[290,1]]
+.countBy(row => row[1])
+// Count instances of bucket happenings // {"1":1,"4":2}
 .toPairs()
 .sortBy(row => row[1]) [[1,1],[4,2]]
 .last()
 .first()
-.parseInt() // 4th bucket had the most happenings that's closest to a drop from predictionPoint = 300
-.value()
+.parseInt()
+// 4th bucket had the most happenings that's closest to a drop from predictionPoint = 300
+.value();
 ```
